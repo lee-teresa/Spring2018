@@ -35,7 +35,6 @@ int main (void)
     printf("The students' info is:\n");
     for(int i = 0; i < STUDENTS; i++)
     {
-        printf("name: %s year: %i house: %s HUID: %i GPA: %.2f\n", classroom[i].name, classroom[i].year, classroom[i].house ,
-             classroom[i].huid , classroom[i].gpa);
+        printf("name: %s year: %i house: %s HUID: %i GPA: %.2f\n", classroom[i].name, classroom[i].year, classroom[i].gpa);
     }
 }
