@@ -1,0 +1,12 @@
+tomato
+cucumber
+pear
+apple
+peppers
+milk
+apricot
+grapes
+pineaples
+water
+cheese
+celery
