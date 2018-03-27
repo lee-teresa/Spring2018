@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student List</title>
+  </head>
+  <body>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Fullname</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+                <tr>
+                    <td>{{ student.userid }}</td>
+                    <td>{{ student.username }}</td>
+                    <td>{{ student.password }}</td>
+                    <td>{{ student.fullname }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+  </body>
+</html>
+
