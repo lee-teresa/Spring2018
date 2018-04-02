@@ -1,0 +1,20 @@
+<html>
+	<head>
+
+		<title>Event Handlers</title>
+	</head>
+	<body>
+		<button onclick="alertName(event)">Button1</button>
+		<button onclick="alertName(event)">Button2</button>
+	    <script>
+            function alertName(event)
+            {
+                let trigger = event.srcElement;
+                alert('You clicked on ' + trigger.innerHTML);
+            }
+	    </script>
+
+	</body>
+</html>
+
+

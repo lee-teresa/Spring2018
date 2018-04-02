@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            function greet()
+            {
+                alert('hello, ' + document.getElementById('name').value + '!');
+            }
+        </script>
+        <title>Greetings</title>
+    </head>
+    <body>
+        <form id="demo" onsubmit="greet(); return false;">
+            <input id="name" placeholder="Name" type="text"/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
